@@ -1,5 +1,5 @@
 
-<p align="center">
+<!--<p align="center">
     <a href=""> <img src="pics/logo.png" width="400"/></a>
 <p>
 <p align="center">  
@@ -18,7 +18,10 @@
     <a href="https://zjukg.github.io/NeuralKG/index.html">
         <img alt="Documentation" src="https://img.shields.io/badge/Doc-online-blue">
     </a>
-</p>
+</p>-->
+<h1 align="center">
+    <p>EasySchema</p>
+</h1>
 <h1 align="center">
     <p>开放的中文图谱schema编辑工具</p>
 </h1>
