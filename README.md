@@ -55,8 +55,8 @@
 
 <br>
 
-# 😃最新消息
 <!--
+# 😃最新消息
 ## 2022年10月
 * 我们添加了[DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)模型
 
