@@ -12,9 +12,9 @@
     <a href="https://github.com/zjukg/NeuralKG/blob/main/LICENSE">
         <img alt="Pypi" src="https://img.shields.io/badge/license-Apache--2.0-yellowgreen">
     </a>
-    <!-- <a href="">
+    <a href="">
         <img alt="LICENSE" src="https://img.shields.io/badge/license-MIT-brightgreen">
-    </a> -->
+    </a>
     <a href="https://zjukg.github.io/NeuralKG/index.html">
         <img alt="Documentation" src="https://img.shields.io/badge/Doc-online-blue">
     </a>
