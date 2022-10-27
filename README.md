@@ -22,7 +22,7 @@
 </p>
 
 <h1 align="center">
-    <p>An Open Source Library for Diverse Representation Learning of Knowledge Graphs</p>
+    <p>开放的中文图谱Schema</p>
 </h1>
 <p align="center">
     <b> English | <a href="https://github.com/zjukg/NeuralKG/blob/main/README_CN.md">中文</a> </b>
