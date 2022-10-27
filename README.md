@@ -1,5 +1,5 @@
-#=EasySchema  
-######拥有的功能： 
+EasySchema  
+拥有的功能： 
 1.cnSchema
 2.可下拉选择
 3.可动态请求子层级节点
