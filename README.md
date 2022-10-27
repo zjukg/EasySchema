@@ -1,179 +1,95 @@
-# EasySchema
-
-
-Website Pypi Pypi Documentation
-
-An Open Source Library for Diverse Representation Learning of Knowledge Graphs
-
-English | 中文
-
-NeuralKG is a python-based library for diverse representation learning of knowledge graphs implementing Conventional KGEs, GNN-based KGEs, and Rule-based KGEs. We provide comprehensive documents for beginners and an online website to organize an open and shared KG representation learning community.
-
-
-Table of Contents
-Table of Contents
-😃What's New
-Oct, 2022
-Sep, 2022
-Jun, 2022
-Mar, 2022
-Feb, 2022
-Overview
-Demo
-Implemented KGEs
-Quick Start
-Installation
-Training
-Evaluation
-Hyperparameter Tuning
-Reproduced Results
-Notebook Guide
-Detailed Documentation
-Citation
-NeuralKG Core Team
-
-😃What's New
-Oct, 2022
-We add the DualE model for our library
-Sep, 2022
-We add the PairRE model for our library
-Jun, 2022
-We add the HAKE model for our library
-Mar, 2022
-We have provided Google Colab Tutotials help users use our library
-We have provided a new blog about how to use NeuralKG on custom datasets
-Feb, 2022
-We have released a paper NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs
-
-Overview
-
-NeuralKG is built on PyTorch Lightning. It provides a general workflow of diverse representation learning on KGs and is highly modularized, supporting three series of KGEs. It has the following features:
-
-Support diverse types of methods. NeuralKG, as a library for diverse representation learning of KGs, provides implementations of three series of KGE methods, including Conventional KGEs, GNN-based KGEs, and Rule-based KGEs.
-
-Support easy customization. NeuralKG contains fine-grained decoupled modules that are commonly used in different KGEs, including KG Data Preprocessing, Sampler for negative sampling, Monitor for hyperparameter tuning, Trainer covering the training, and model validation.
-
-long-term technical maintenance. The core team of NeuralKG will offer long-term technical maintenance. Other developers are welcome to pull requests.
-
-
-Demo
-There is a demonstration of NeuralKG.
-
-
-
-
-Implemented KGEs
-Components	Models
-KGEModel	TransE, TransH, TransR, ComplEx, DistMult, RotatE, ConvE, BoxE, CrossE, SimplE, HAKE, PairRE, DualE
-GNNModel	RGCN, KBAT, CompGCN, XTransE
-RuleModel	ComplEx-NNE+AER, RUGE, IterE
-Quick Start
-Installation
-Step1 Create a virtual environment using Anaconda and enter it
-
-conda create -n neuralkg python=3.8
-conda activate neuralkg
-Step2 Install the appropriate PyTorch and DGL according to your cuda version
-
-Here we give a sample installation based on cuda == 11.1
-
-Install PyTorch
-pip install torch==1.9.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
-Install DGL
-pip install dgl-cu111 dglgo -f https://data.dgl.ai/wheels/repo.html
-Step3 Install package
-
-From Pypi
-pip install neuralkg
-From Source
-git clone https://github.com/zjukg/NeuralKG.git
-cd NeuralKG
-python setup.py install
-Training
-# Use bash script
-sh ./scripts/your-sh
-
-# Use config
-python main.py --load_config --config_path <your-config>
-
-Evaluation
-python main.py --test_only --checkpoint_dir <your-model-path>
-Hyperparameter Tuning
-NeuralKG utilizes Weights&Biases supporting various forms of hyperparameter optimization such as grid search, Random search, and Bayesian optimization. The search type and search space are specified in the configuration file in the format "*.yaml" to perform hyperparameter optimization.
-
-The following config file displays hyperparameter optimization of the TransE on the FB15K-237 dataset using bayes search:
-
-command:
-  - ${env}
-  - ${interpreter}
-  - ${program}
-  - ${args}
-program: main.py
-method: bayes
-metric:
-  goal: maximize
-  name: Eval|hits@10
-parameters:
-  dataset_name:
-    value: FB15K237
-  model_name:
-    value: TransE
-  loss_name:
-    values: [Adv_Loss, Margin_Loss]
-  train_sampler_class:
-    values: [UniSampler, BernSampler]
-  emb_dim:
-    values: [400, 600]
-  lr:
-    values: [1e-4, 5e-5, 1e-6]
-  train_bs:
-    values: [1024, 512]
-  num_neg:
-    values: [128, 256]
-
-Reproduced Results
-There are some reproduced model results on FB15K-237 dataset using NeuralKG as below. See more results in here
-
-Method	MRR	Hit@1	Hit@3	Hit@10
-TransE	0.32	0.23	0.36	0.51
-TransR	0.23	0.16	0.26	0.38
-TransH	0.31	0.2	0.34	0.50
-DistMult	0.30	0.22	0.33	0.48
-ComplEx	0.25	0.17	0.27	0.40
-SimplE	0.16	0.09	0.17	0.29
-ConvE	0.32	0.23	0.35	0.50
-RotatE	0.33	0.23	0.37	0.53
-BoxE	0.32	0.22	0.36	0.52
-HAKE	0.34	0.24	0.38	0.54
-PairRE	0.35	0.25	0.38	0.54
-DualE	0.33	0.24	0.36	0.52
-XTransE	0.29	0.19	0.31	0.45
-RGCN	0.25	0.16	0.27	0.43
-KBAT*	0.28	0.18	0.31	0.46
-CompGCN	0.34	0.25	0.38	0.52
-IterE	0.26	0.19	0.29	0.41
-*:There is a label leakage error in KBAT, so the corrected result is poor compared with the paper result. Details in deepakn97/relationPrediction#28
-
-
-Notebook Guide
-😃We use colab to provide some notebooks to help users use our library.
-
-Colab Notebook
-
-
-Detailed Documentation
-https://zjukg.github.io/NeuralKG/neuralkg.html
-
-
-Citation
-Please cite our paper if you use NeuralKG in your work
-
-@article{zhang2022neuralkg,
-      title={NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs}, 
-      author={Zhang, Wen and Chen, Xiangnan and Yao, Zhen and Chen, Mingyang and Zhu, Yushan and Yu, Hongtao and Huang, Yufeng and others},
-      journal={arXiv preprint arXiv:2202.12571},
-      year={2022},
-}
-
-NeuralKG Core Team
-Zhejiang University: Wen Zhang, Xiangnan Chen, Zhen Yao, Mingyang Chen, Yushan Zhu, Hongtao Yu, Yufeng Huang, Zezhong Xu, Yajing Xu, Peng Ye, Yichi Zhang, Ningyu Zhang, Guozhou Zheng, Huajun Chen
+#=EasySchema  
+######拥有的功能： 
+1.cnSchema
+2.可下拉选择
+3.可动态请求子层级节点
+4.可批量选中
+4.功能性复选框选择
+---
+![Image text](https://github.com/lky5230/tree-grid-by-vue/blob/master/src/assets/image1.png)
+![Image text](https://github.com/lky5230/tree-grid-by-vue/blob/master/src/assets/image2.png)
+![Image text](https://github.com/lky5230/tree-grid-by-vue/blob/master/src/assets/demo.png)
+>######样例1
+```
+<tree-grid
+     :columns="columns"  // 表示列
+     :rowdata="data"     //表示数据
+     :leafUrl="http://api.fan.dev?parentid="   //动态请求子节点时的接口url，会拼接点击的节点的id, 此时数据需要isleaf = 0
+     :needUpdate="needUpdate"  //更新数据源，需要传入他触发更新，比如传
+ Date.now()
+     :onlyLineEdit="true" //是否每行只能编辑，不能创建兄弟节点和子节点
+      /* 当funcList存在时必须存在funcListAlias！这是功能性复选框选择的功能 */
+      /* 
+        表示从请求的数组数据里面，比如用 
+        permission: [
+              {permission_id:1, permission_name: '删除', checked: true }, 
+              {permission_id:2, permission_name: '审核', checked: false}，
+              {permission_id:3, permission_name: '更新', checked: false}
+        ]  
+        作为数据时，如下
+      */
+        :funcListAlias="{     
+             funcList: 'permission',
+             id: 'permission_id',
+             name: 'permission_name',
+             checked: 'select',
+         }"
+     @currentDate="currentDate" //当每次对tree-grid有一些改动时，可以监听它
+ >
+</tree-grid>
+```
+>######样例2
+```
+<tree-grid
+     :columns="columns"
+     :rowdata="data"
+     :needUpdate="needUpdate"
+     :onlyAddOne="true"   //表示只能在已存在的节点下添加子节点
+     :treeLoading="treeLoading"  //loading，布尔值
+     :showDeleteBtn="false"  //是否在删除列表头显示删除按钮，默认false
+    @currentDate="currentDate"
+    @uploadmodify="uploadmodify"   //有操作列时，点上传会触发它，参数 [data（修改过的数据集合）, successFn, faildFn], 数据是data，成功则调用successFn('成功！')， 失败调用faildFn('失败！')
+    @uploaddelete="uploaddelete"  //点击复选框列th的删除按钮时会触发它（可以控制台查看按钮id，手动触发 window.document.querySelector('#tree_grid___id').click();），参数 [data, successFn, faildFn], 数据是data（选中的id集合），成功则调用successFn('成功！')， 失败调用faildFn('失败！')>
+</tree-grid>
+```
+> ######列的定义：columns
+```
+  /*
+    'name'    //该列title名称
+    'prop',    //该列取数据源的哪个属性
+    'width',   //该列宽度
+    'delete',  //该列是不是复选框列（有它就不需要不需要其他了）
+    'isTree',  //该列是不是层级列
+    'edit',     //该列可不可以编辑
+    'operate',  //该列是不是操作列（有它就不需要不需要其他了）
+    'select',   //该列可不可以下拉
+    'optionList' //和select一起使用，值：['下拉1','下拉2','下拉3']
+    "funcList"  //该列是不是(功能性复选框选择)列
+  */
+columns: [ 
+    {name: 'ID', prop: 'id', width: 120},
+    {name: '删除',  delete: true, width: 60 },
+    {name: 'name字段', prop: 'name', width: 250, isTree: true, edit: true},
+    {name: '操作',  operate: true, width: 60 },
+    {name: 'level', prop: 'level', width: 120, select: true, optionList: ['下拉1', '下拉2']},
+    {name: 'url', prop: 'url', edit: true},
+     /*
+     功能选择：取得的数据，prop对应字段: 比如'func' = [
+         {permission_id:1, permission_name: '删除', checked: true }, 
+         {permission_id:2, permission_name: '审核', checked: false}，
+         {permission_id:3, permission_name: '更新', checked: false}
+     ],
+     注意：对接 funcListAlias 属性！
+     */
+     { name: '功能选择', prop: 'func', funcList: true, width: 50 },
+] 
+```
+> ######行数据的格式：rowdata
+```
+rowdata: [{  
+    "id": 87, //必须，唯一id 
+    "parentid": 22, //必须，父层的id，若自己就是顶层节点，则parentid=0 
+    "isleaf"?: 0或1  //【当需要动态获取子节点功能时】就需要它，表示是否含有子节点（0：动态获取子节点，1：无子节点）
+    ......
+}]
+```
