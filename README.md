@@ -30,6 +30,7 @@
 
 # 目录
 
+<!--
 - [目录](#目录)
 - [😃最新消息](#最新消息)
   - [2022年10月](#2022年10月)
@@ -49,13 +50,13 @@
 - [Notebook教程](#notebook教程)
 - [详细文档](#详细文档)
 - [引用](#引用)
-- [NeuralKG核心团队](#neuralkg核心团队)
+- [NeuralKG核心团队](#neuralkg核心团队)-->
 <!-- * [To do](#to-do) -->
 
 <br>
 
 # 😃最新消息
-
+<!--
 ## 2022年10月
 * 我们添加了[DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)模型
 
@@ -71,17 +72,15 @@
 
 ## 2022年2月
 * 我们发布了关于该工具包的论文[NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs](https://arxiv.org/abs/2202.12571)
-
+-->
 <br>
 
 # 工具概览
-
+<!--
 <h3 align="center">
     <img src="pics/overview.png", width="600">
 </h3>
-<!-- <p align="center">
-    <a href=""> <img src="pics/overview.png" width="400"/></a>
-<p> -->
+
 
 
 NeuralKG工具包整体基于[PyTorch Lightning](https://www.pytorchlightning.ai/)框架，并提供了一个用于多种知识图谱表示学习模型的通用工作流程且高度模块化。NeuralKG具有如下特性：
@@ -91,31 +90,33 @@ NeuralKG工具包整体基于[PyTorch Lightning](https://www.pytorchlightning.ai
 
 + **方便快速的客制化。** NeuralKG对知识图谱表示模型进行细化的模块解耦以方便使用者快速定制自己的模型，其中包括知识图谱数据处理模块，负采样模块，超参数监控模块，训练模块以及模型验证模块。这些模块被广泛应用于不同的知识图谱嵌入模型中
 + **长期技术支持。** NeuralKG的核心开发团队将提供长期的技术支持，同时我们也欢迎开发者们对本项目进行pull requests。
-
+-->
 <br>
 
 # 运行示例
+
+<!--
 NeuralKG在自定义知识图谱demo_kg上运行的示例。
-<!-- ![框架](./pics/demo.gif) -->
-<img src="pics/demo.gif">
-<!-- <img src="pics/demo.gif" width="900" height="476" align=center> -->
+
+<img src="pics/demo.gif">-->
+
 
 <br>
 
 # 实现模型
-
+<!--
 |类别| 模型 |
 |:--:|:--------------:|
 |传统知识图谱嵌入（KGEModel）|[TransE](https://papers.nips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html), [TransH](https://ojs.aaai.org/index.php/AAAI/article/view/8870), [TransR](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523/), [ComplEx](http://proceedings.mlr.press/v48/trouillon16.pdf), [DistMult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICLR2015_updated.pdf), [RotatE](https://arxiv.org/abs/1902.10197), [ConvE](https://arxiv.org/abs/1707.01476), [BoxE](https://arxiv.org/pdf/2007.06267.pdf), [CrossE](https://arxiv.org/abs/1903.04750), [SimplE](https://arxiv.org/abs/1802.04868), [HAKE](https://arxiv.org/abs/1911.09419), [PairRE](https://arxiv.org/pdf/2011.03798.pdf), [DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)|
 |基于图神经网络的知识图谱嵌入（GNNModel）|[RGCN](https://arxiv.org/abs/1703.06103), [KBAT](https://arxiv.org/abs/1906.01195), [CompGCN](https://arxiv.org/abs/1906.01195), [XTransE](https://link.springer.com/chapter/10.1007/978-981-15-3412-6_8)|
 |基于规则的知识图谱嵌入（RuleModel）|[ComplEx-NNE+AER](https://aclanthology.org/P18-1011/), [RUGE](https://arxiv.org/abs/1711.11231), [IterE](https://arxiv.org/abs/1903.08948)|
-
+-->
 <br>
 
 # 快速上手
 
 ## 下载
-
+<!--
 **Step1** 使用 ```Anaconda``` 创建虚拟环境，并进入虚拟环境
 
 ```bash
@@ -222,20 +223,21 @@ parameters:
 |IterE|0.26|0.19|0.29|0.41|
 
 *:在KBAT的原论文作者实现中存在标签泄漏的问题，所以正确的结果相对较低，具体可以查看https://github.com/deepakn97/relationPrediction/issues/28
-
+-->
 <br>
 
 # Notebook教程
 
-
+<!--
 😃我们使用colab提供部分notebook供用户使用我们的工具包
 
 [![Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/drive/folders/1OyuxvdjRNFzRuheNZaGGCsPe75T1pW1P?usp=sharing)
-
+-->
 <br>
 
 # 详细文档
-https://zjukg.github.io/NeuralKG/neuralkg.html
+<!--
+https://zjukg.github.io/NeuralKG/neuralkg.html-->
 
 
 <!-- <br> -->
@@ -245,7 +247,7 @@ https://zjukg.github.io/NeuralKG/neuralkg.html
 <br>
 
 # 引用
-
+<!--
 如果您使用了NeuralKG，请引用我们的论文
 
 ```bibtex
@@ -257,8 +259,9 @@ https://zjukg.github.io/NeuralKG/neuralkg.html
 }
 
 ```
+-->
 <br>
 
-# NeuralKG核心团队
+# 核心团队
 
-**浙江大学**: 张文，陈湘楠，姚祯，陈名杨，朱渝珊，俞洪涛，黄雨峰，许泽众，徐雅静，叶鹏，张溢弛，张宁豫，郑国轴，陈华钧
+**浙江大学**: <!--张文，陈湘楠，姚祯，陈名杨，朱渝珊，俞洪涛，黄雨峰，许泽众，徐雅静，叶鹏，张溢弛，张宁豫，郑国轴，陈华钧-->
