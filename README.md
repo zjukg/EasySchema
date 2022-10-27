@@ -21,12 +21,10 @@
 </p>-->
 <h1 align="center">
     <p>EasySchema</p>
-</h1>
-<h1 align="center">
     <p>开放的中文图谱schema编辑工具</p>
 </h1>
 
-NeuralKG是一个支持多种知识图谱表示学习/知识图谱嵌入（Knowledge Graph Embedding， KGE）模型的Python工具包，其中实现了多种传统知识图谱嵌入、基于图神经网络的知识图谱嵌入以及基于规则的知识图谱嵌入方法。同时为初学者提供了详细的[文档](https://zjukg.github.io/NeuralKG/index.html)以及一个开放共享的知识图谱表示学习社区[网站](http://neuralkg.zjukg.org/)。
+<!--NeuralKG是一个支持多种知识图谱表示学习/知识图谱嵌入（Knowledge Graph Embedding， KGE）模型的Python工具包，其中实现了多种传统知识图谱嵌入、基于图神经网络的知识图谱嵌入以及基于规则的知识图谱嵌入方法。同时为初学者提供了详细的[文档](https://zjukg.github.io/NeuralKG/index.html)以及一个开放共享的知识图谱表示学习社区[网站](http://neuralkg.zjukg.org/)。-->
 
 <br>
 
