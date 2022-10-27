@@ -1,7 +1,6 @@
 
-<h1 align="center">
-    <p>EasySchema</p>
-</h1>
+<p align="center">
+    <a href=""> <img src="pics/logo.png" width="400"/></a>
 <p>
 <p align="center">  
     <a href="http://neuralkg.zjukg.cn/">
@@ -20,67 +19,61 @@
         <img alt="Documentation" src="https://img.shields.io/badge/Doc-online-blue">
     </a>
 </p>
-
 <h1 align="center">
-    <p>开放的中文图谱Schema</p>
+    <p>开放的中文图谱schema编辑工具</p>
 </h1>
-<p align="center">
-    <b> English | <a href="https://github.com/zjukg/NeuralKG/blob/main/README_CN.md">中文</a> </b>
-</p>
 
-NeuralKG is a python-based library for diverse representation learning of knowledge graphs implementing **Conventional KGEs**, **GNN-based KGEs**, and **Rule-based
-KGEs**. We provide [comprehensive documents](https://zjukg.github.io/NeuralKG/index.html) for beginners and an [online website](http://neuralkg.zjukg.org/) to organize an open and shared KG representation learning community.
+NeuralKG是一个支持多种知识图谱表示学习/知识图谱嵌入（Knowledge Graph Embedding， KGE）模型的Python工具包，其中实现了多种传统知识图谱嵌入、基于图神经网络的知识图谱嵌入以及基于规则的知识图谱嵌入方法。同时为初学者提供了详细的[文档](https://zjukg.github.io/NeuralKG/index.html)以及一个开放共享的知识图谱表示学习社区[网站](http://neuralkg.zjukg.org/)。
 
 <br>
 
-# Table of Contents
+# 目录
 
-- [Table of Contents](#table-of-contents)
-- [😃What's New](#whats-new)
-  - [Oct, 2022](#oct-2022)
-  - [Sep, 2022](#sep-2022)
-  - [Jun, 2022](#jun-2022)
-  - [Mar, 2022](#mar-2022)
-  - [Feb, 2022](#feb-2022)
-- [Overview](#overview)
-- [Demo](#demo)
-- [Implemented KGEs](#implemented-kges)
-- [Quick Start](#quick-start)
-  - [Installation](#installation)
-  - [Training](#training)
-  - [Evaluation](#evaluation)
-  - [Hyperparameter Tuning](#hyperparameter-tuning)
-- [Reproduced Results](#reproduced-results)
-- [Notebook Guide](#notebook-guide)
-- [Detailed Documentation](#detailed-documentation)
-- [Citation](#citation)
-- [NeuralKG Core Team](#neuralkg-core-team)
+- [目录](#目录)
+- [😃最新消息](#最新消息)
+  - [2022年10月](#2022年10月)
+  - [2022年9月](#2022年9月)
+  - [2022年6月](#2022年6月)
+  - [2022年3月](#2022年3月)
+  - [2022年2月](#2022年2月)
+- [工具概览](#工具概览)
+- [运行示例](#运行示例)
+- [实现模型](#实现模型)
+- [快速上手](#快速上手)
+  - [下载](#下载)
+  - [模型训练](#模型训练)
+  - [模型测试](#模型测试)
+  - [超参调节](#超参调节)
+- [复现结果](#复现结果)
+- [Notebook教程](#notebook教程)
+- [详细文档](#详细文档)
+- [引用](#引用)
+- [NeuralKG核心团队](#neuralkg核心团队)
 <!-- * [To do](#to-do) -->
 
+<br>
+
+# 😃最新消息
+
+## 2022年10月
+* 我们添加了[DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)模型
+
+## 2022年9月
+* 我们添加了[PairRE](https://arxiv.org/pdf/2011.03798.pdf)模型
+
+## 2022年6月
+* 我们添加了[HAKE](https://arxiv.org/abs/1911.09419)模型
+
+## 2022年3月
+* 我们提供了一个[Google Colab教程](https://drive.google.com/drive/folders/1OyuxvdjRNFzRuheNZaGGCsPe75T1pW1P?usp=sharing)帮助用户使用我们的工具包
+* 我们提供了一篇[博客](http://neuralkg.zjukg.org/uncategorized/neuralkg-for-recommendation%ef%bf%bc/)来介绍我们的工具包在自定义数据集上的使用方式
+
+## 2022年2月
+* 我们发布了关于该工具包的论文[NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs](https://arxiv.org/abs/2202.12571)
 
 <br>
 
-# 😃What's New
-
-## Oct, 2022
-* We add the [DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850) model for our library
-
-## Sep, 2022
-* We add the [PairRE](https://arxiv.org/pdf/2011.03798.pdf) model for our library
-
-## Jun, 2022
-* We add the [HAKE](https://arxiv.org/abs/1911.09419) model for our library
-
-## Mar, 2022
-* We have provided [Google Colab Tutotials](https://drive.google.com/drive/folders/1OyuxvdjRNFzRuheNZaGGCsPe75T1pW1P?usp=sharing) help users use our library
-* We have provided a new [blog](http://neuralkg.zjukg.org/uncategorized/neuralkg-for-recommendation%ef%bf%bc/) about how to use NeuralKG on custom datasets
-
-## Feb, 2022
-* We have released a paper [NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs](https://arxiv.org/abs/2202.12571)
-
-<br>
-
-# Overview
+# 工具概览
 
 <h3 align="center">
     <img src="pics/overview.png", width="600">
@@ -90,72 +83,70 @@ KGEs**. We provide [comprehensive documents](https://zjukg.github.io/NeuralKG/in
 <p> -->
 
 
-NeuralKG is built on [PyTorch Lightning](https://www.pytorchlightning.ai/). It provides a general workflow of diverse representation learning on KGs and is highly modularized, supporting three series of KGEs. It has the following features:
+NeuralKG工具包整体基于[PyTorch Lightning](https://www.pytorchlightning.ai/)框架，并提供了一个用于多种知识图谱表示学习模型的通用工作流程且高度模块化。NeuralKG具有如下特性：
 
-+  **Support diverse types of methods.** NeuralKG, as a library for diverse representation learning of KGs, provides implementations of three series of KGE methods, including **Conventional KGEs**, **GNN-based KGEs**, and **Rule-based KGEs**.
++  **支持多种方法。** NeuralKG提供了对三类知识图谱嵌入方法的代码实现，包括**传统知识图谱嵌入**, **基于图神经网络的知识图谱嵌入**, 以及**基于规则的知识图谱嵌入**。
 
 
-+ **Support easy customization.** NeuralKG contains fine-grained decoupled modules that are commonly used in different KGEs, including KG Data Preprocessing, Sampler for negative sampling, Monitor for hyperparameter tuning, Trainer covering the training, and model validation.
-
-+ **long-term technical maintenance.** The core team of NeuralKG will offer long-term technical maintenance. Other developers are welcome to pull requests.
++ **方便快速的客制化。** NeuralKG对知识图谱表示模型进行细化的模块解耦以方便使用者快速定制自己的模型，其中包括知识图谱数据处理模块，负采样模块，超参数监控模块，训练模块以及模型验证模块。这些模块被广泛应用于不同的知识图谱嵌入模型中
++ **长期技术支持。** NeuralKG的核心开发团队将提供长期的技术支持，同时我们也欢迎开发者们对本项目进行pull requests。
 
 <br>
 
-# Demo
-
-There is a demonstration of NeuralKG.
+# 运行示例
+NeuralKG在自定义知识图谱demo_kg上运行的示例。
 <!-- ![框架](./pics/demo.gif) -->
 <img src="pics/demo.gif">
 <!-- <img src="pics/demo.gif" width="900" height="476" align=center> -->
 
 <br>
 
-# Implemented KGEs
+# 实现模型
 
-|Components| Models |
-|:---|:--------------:|
-|KGEModel|[TransE](https://papers.nips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html), [TransH](https://ojs.aaai.org/index.php/AAAI/article/view/8870), [TransR](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523/), [ComplEx](http://proceedings.mlr.press/v48/trouillon16.pdf), [DistMult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICLR2015_updated.pdf), [RotatE](https://arxiv.org/abs/1902.10197), [ConvE](https://arxiv.org/abs/1707.01476), [BoxE](https://arxiv.org/pdf/2007.06267.pdf), [CrossE](https://arxiv.org/abs/1903.04750), [SimplE](https://arxiv.org/abs/1802.04868), [HAKE](https://arxiv.org/abs/1911.09419), [PairRE](https://arxiv.org/pdf/2011.03798.pdf), [DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)|
-|GNNModel|[RGCN](https://arxiv.org/abs/1703.06103), [KBAT](https://arxiv.org/abs/1906.01195), [CompGCN](https://arxiv.org/abs/1906.01195), [XTransE](https://link.springer.com/chapter/10.1007/978-981-15-3412-6_8)|
-|RuleModel|[ComplEx-NNE+AER](https://aclanthology.org/P18-1011/), [RUGE](https://arxiv.org/abs/1711.11231), [IterE](https://arxiv.org/abs/1903.08948)|
+|类别| 模型 |
+|:--:|:--------------:|
+|传统知识图谱嵌入（KGEModel）|[TransE](https://papers.nips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html), [TransH](https://ojs.aaai.org/index.php/AAAI/article/view/8870), [TransR](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523/), [ComplEx](http://proceedings.mlr.press/v48/trouillon16.pdf), [DistMult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICLR2015_updated.pdf), [RotatE](https://arxiv.org/abs/1902.10197), [ConvE](https://arxiv.org/abs/1707.01476), [BoxE](https://arxiv.org/pdf/2007.06267.pdf), [CrossE](https://arxiv.org/abs/1903.04750), [SimplE](https://arxiv.org/abs/1802.04868), [HAKE](https://arxiv.org/abs/1911.09419), [PairRE](https://arxiv.org/pdf/2011.03798.pdf), [DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)|
+|基于图神经网络的知识图谱嵌入（GNNModel）|[RGCN](https://arxiv.org/abs/1703.06103), [KBAT](https://arxiv.org/abs/1906.01195), [CompGCN](https://arxiv.org/abs/1906.01195), [XTransE](https://link.springer.com/chapter/10.1007/978-981-15-3412-6_8)|
+|基于规则的知识图谱嵌入（RuleModel）|[ComplEx-NNE+AER](https://aclanthology.org/P18-1011/), [RUGE](https://arxiv.org/abs/1711.11231), [IterE](https://arxiv.org/abs/1903.08948)|
 
 <br>
 
-# Quick Start
+# 快速上手
 
-## Installation
+## 下载
 
-**Step1** Create a virtual environment using ```Anaconda``` and enter it
+**Step1** 使用 ```Anaconda``` 创建虚拟环境，并进入虚拟环境
+
 ```bash
 conda create -n neuralkg python=3.8
 conda activate neuralkg
 ```
-**Step2** Install the appropriate PyTorch and DGL according to your cuda version
+**Step2** 下载适用您CUDA版本的的PyTorch的DGL，下面我们提供一个基于CUDA 11.1的下载样例 
 
-Here we give a sample installation based on cuda == 11.1
-
-+  Install PyTorch
++  下载PyTorch
 ```
 pip install torch==1.9.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 ```
-+ Install DGL
++ 下载DGL
 ```
 pip install dgl-cu111 dglgo -f https://data.dgl.ai/wheels/repo.html
 ```
 
-**Step3** Install package
-+ From Pypi
+**Step3** 安装NeuralKG
+
++ 基于Pypi
 ```bash
 pip install neuralkg
 ```
 
-+ From Source
++ 或基于源码
 
 ```bash
 git clone https://github.com/zjukg/NeuralKG.git
 cd NeuralKG
 python setup.py install
 ```
-## Training
+## 模型训练
 ```
 # Use bash script
 sh ./scripts/your-sh
@@ -165,14 +156,15 @@ python main.py --load_config --config_path <your-config>
 
 ```
 
-## Evaluation
+## 模型测试
 ```
 python main.py --test_only --checkpoint_dir <your-model-path>
 ```
-## Hyperparameter Tuning
-NeuralKG utilizes [Weights&Biases](https://wandb.ai/site) supporting various forms of hyperparameter optimization such as grid search, Random search, and Bayesian optimization. The search type and search space are specified in the configuration file in the format "*.yaml" to perform hyperparameter optimization.
+## 超参调节
+NeuralKG使用[Weights&Biases](https://wandb.ai/site)进行超参数调节，支持多种超参优化例如网格搜索、随机搜索和贝叶斯优化。搜索类型和搜索空间可以通过配置（*.yaml）文件进行设置。
 
-The following config file displays hyperparameter optimization of the TransE on the FB15K-237 dataset using bayes search:
+下面展示了在FB15k-237上训练TransE，并使用贝叶斯搜索（bayes search）进行超参数调节的配置文件：
+
 ```
 command:
   - ${env}
@@ -204,8 +196,8 @@ parameters:
 ```
 <br>
 
-# Reproduced Results
-There are some reproduced model results on FB15K-237 dataset using NeuralKG as below. See more results in [here](https://zjukg.github.io/NeuralKG/result.html)
+# 复现结果
+下面展示了使用NeuralKG的不同模型在FB15k-237上的结果，更多结果请访问[此处](https://zjukg.github.io/NeuralKG/result.html)。
 
 
 |Method | MRR | Hit@1 | Hit@3 | Hit@10 |
@@ -228,20 +220,20 @@ There are some reproduced model results on FB15K-237 dataset using NeuralKG as b
 |CompGCN|0.34|0.25|0.38|0.52|
 |IterE|0.26|0.19|0.29|0.41|
 
-*:There is a label leakage error in KBAT, so the corrected result is poor compared with the paper result. Details in https://github.com/deepakn97/relationPrediction/issues/28
+*:在KBAT的原论文作者实现中存在标签泄漏的问题，所以正确的结果相对较低，具体可以查看https://github.com/deepakn97/relationPrediction/issues/28
 
 <br>
 
-# Notebook Guide
+# Notebook教程
 
 
-😃We use colab to provide some notebooks to help users use our library.
+😃我们使用colab提供部分notebook供用户使用我们的工具包
 
 [![Colab Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/drive/folders/1OyuxvdjRNFzRuheNZaGGCsPe75T1pW1P?usp=sharing)
 
 <br>
 
-# Detailed Documentation
+# 详细文档
 https://zjukg.github.io/NeuralKG/neuralkg.html
 
 
@@ -251,9 +243,9 @@ https://zjukg.github.io/NeuralKG/neuralkg.html
 
 <br>
 
-# Citation
+# 引用
 
-Please cite our paper if you use NeuralKG in your work
+如果您使用了NeuralKG，请引用我们的论文
 
 ```bibtex
 @article{zhang2022neuralkg,
@@ -266,6 +258,6 @@ Please cite our paper if you use NeuralKG in your work
 ```
 <br>
 
-# NeuralKG Core Team 
-**Zhejiang University**: Wen Zhang, Xiangnan Chen, Zhen Yao, Mingyang Chen, Yushan Zhu, Hongtao Yu, Yufeng Huang, Zezhong Xu, Yajing Xu, Peng Ye, Yichi Zhang, Ningyu Zhang, Guozhou Zheng, Huajun Chen
+# NeuralKG核心团队
 
+**浙江大学**: 张文，陈湘楠，姚祯，陈名杨，朱渝珊，俞洪涛，黄雨峰，许泽众，徐雅静，叶鹏，张溢弛，张宁豫，郑国轴，陈华钧
