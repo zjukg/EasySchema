@@ -1,5 +1,7 @@
 
-<p align="center" style="font-size:20px">EasySchema</p>
+<h1 align="center">
+    <p>EasySchema</p>
+</h1>
 <p>
 <p align="center">  
     <a href="http://neuralkg.zjukg.cn/">
