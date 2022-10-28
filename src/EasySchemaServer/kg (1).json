@@ -1,0 +1,1915 @@
+{
+  "nodes": [
+    {
+      "id": "地点",
+      "label": "地点",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 574.3573437990253,
+      "y": 301.9317260793225,
+      "index": 0,
+      "vy": 0.0009798045031998842,
+      "vx": -0.003060360294837624,
+      "degree": 2,
+      "weight": 2
+    },
+    {
+      "id": "行政区划",
+      "label": "行政区划",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 759.9420311743545,
+      "y": 359.3781999040037,
+      "index": 1,
+      "vy": -0.0009399416760439275,
+      "vx": -0.006233236340118679,
+      "degree": 3,
+      "weight": 3
+    },
+    {
+      "id": "地级行政区",
+      "label": "地级行政区",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 642.0132674842985,
+      "y": 512.9756485845314,
+      "index": 2,
+      "vy": -0.0028143019878564598,
+      "vx": -0.0037898214939642554,
+      "degree": 5,
+      "weight": 5
+    },
+    {
+      "id": "地级市",
+      "label": "地级市",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 526.4444274876549,
+      "y": 616.0682413261587,
+      "index": 3,
+      "vy": -0.00003893513253295408,
+      "vx": 0.0007778036784626469,
+      "degree": 7,
+      "weight": 7
+    },
+    {
+      "id": "行政区划名称",
+      "label": "行政区划名称",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": -63.79962364274914,
+      "y": 238.67995564281009,
+      "index": 4,
+      "vy": 0.0010237783325283197,
+      "vx": 0.0011670092428711213,
+      "degree": 4,
+      "weight": 4
+    },
+    {
+      "id": "市政建筑",
+      "label": "市政建筑",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 423.3230182386905,
+      "y": 246.77033315483496,
+      "index": 5,
+      "vy": 0.0022075587423664444,
+      "vx": 0.0014714670263659814,
+      "degree": 3,
+      "weight": 3
+    },
+    {
+      "id": "博物馆",
+      "label": "博物馆",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 292.49832714556413,
+      "y": 342.63232971473747,
+      "index": 6,
+      "vy": 0.002440790424880509,
+      "vx": 0.0035458893819927512,
+      "degree": 5,
+      "weight": 5
+    },
+    {
+      "id": "博物馆名称",
+      "label": "博物馆名称",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": -122.63026135004849,
+      "y": 102.73415177329707,
+      "index": 7,
+      "vy": 0.0029296485969959995,
+      "vx": 0.0038148593705830992,
+      "degree": 3,
+      "weight": 3
+    },
+    {
+      "id": "其他",
+      "label": "其他",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 392.3874706350396,
+      "y": -47.7823188799808,
+      "index": 8,
+      "vy": 0.0013717852962651055,
+      "vx": 0.05277884229832149,
+      "degree": 1,
+      "weight": 1
+    },
+    {
+      "id": "结构化的值",
+      "label": "结构化的值",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 547.0356421229861,
+      "y": 34.4854952494353,
+      "index": 9,
+      "vy": 0.0015681214158201826,
+      "vx": 0.0012106114127210011,
+      "degree": 3,
+      "weight": 3
+    },
+    {
+      "id": "联系方式",
+      "label": "联系方式",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 217.1123489556618,
+      "y": 123.19610865939165,
+      "index": 10,
+      "vy": -0.0012023479716880775,
+      "vx": -0.007199852164471583,
+      "degree": 5,
+      "weight": 5
+    },
+    {
+      "id": "邮寄地址",
+      "label": "邮寄地址",
+      "size": [60, 60],
+      "linkPoints": {
+        "bottom": false,
+        "stroke": "#4682B4",
+        "fill": "#fff",
+        "size": 10
+      },
+      "style": {
+        "active": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10
+        },
+        "selected": { "stroke": "#409eff", "lineWidth": 1, "fill": "#409eff" },
+        "highlight": {
+          "fill": "rgb(223, 234, 255)",
+          "stroke": "#4572d9",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": {
+          "fill": "rgb(247, 250, 255)",
+          "stroke": "rgb(191, 213, 255)",
+          "lineWidth": 1
+        },
+        "disable": {
+          "fill": "rgb(250, 250, 250)",
+          "stroke": "rgb(224, 224, 224)",
+          "lineWidth": 1
+        },
+        "fill": "#4682B4",
+        "stroke": "#4682B4",
+        "lineWidth": 1,
+        "shadowColor": "#909399",
+        "shadowBlur": 10,
+        "shadowOffsetX": 3,
+        "shadowOffsetY": 3,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "center",
+        "style": {
+          "fill": "#fff",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 18
+        }
+      },
+      "x": 747.4626971713354,
+      "y": 104.92386992925398,
+      "index": 11,
+      "vy": -0.002810885848506544,
+      "vx": -0.004789875079529151,
+      "degree": 3,
+      "weight": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "地点",
+      "target": "行政区划",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge1",
+      "startPoint": { "x": 603.4934040651697, "y": 310.95059475380725 },
+      "endPoint": { "x": 730.8059709082102, "y": 350.35933122951894 }
+    },
+    {
+      "source": "行政区划",
+      "target": "地级行政区",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge2",
+      "startPoint": { "x": 741.3679387680866, "y": 383.57020460149454 },
+      "endPoint": { "x": 660.5873598905664, "y": 488.78364388704057 }
+    },
+    {
+      "source": "地级行政区",
+      "target": "地级市",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge3",
+      "startPoint": { "x": 619.2529865807429, "y": 533.2788407766781 },
+      "endPoint": { "x": 549.2047083912105, "y": 595.7650491340121 }
+    },
+    {
+      "source": "地级市",
+      "target": "行政区划名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge4",
+      "startPoint": { "x": 500.74788008843643, "y": 599.638467993586 },
+      "endPoint": { "x": -38.10307624353063, "y": 255.1097289753828 }
+    },
+    {
+      "source": "地点",
+      "target": "市政建筑",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge5",
+      "startPoint": { "x": 545.7082826087916, "y": 291.46839520821624 },
+      "endPoint": { "x": 451.9720794289242, "y": 257.2336640259412 }
+    },
+    {
+      "source": "市政建筑",
+      "target": "博物馆",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge6",
+      "startPoint": { "x": 398.7208421217761, "y": 264.7976160979832 },
+      "endPoint": { "x": 317.1005032624785, "y": 324.6050467715892 }
+    },
+    {
+      "source": "行政区划名称",
+      "target": "博物馆名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge7",
+      "startPoint": { "x": 266.0907129366837, "y": 327.3716642051688 },
+      "endPoint": { "x": -96.22264714116808, "y": 117.9948172828657 }
+    },
+    {
+      "source": "行政区划",
+      "target": "地级行政区",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge8",
+      "startPoint": { "x": 741.3679387680866, "y": 383.57020460149454 },
+      "endPoint": { "x": 660.5873598905664, "y": 488.78364388704057 }
+    },
+    {
+      "source": "地级行政区",
+      "target": "地级市",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge9",
+      "startPoint": { "x": 619.2529865807429, "y": 533.2788407766781 },
+      "endPoint": { "x": 549.2047083912105, "y": 595.7650491340121 }
+    },
+    {
+      "source": "地级市",
+      "target": "行政区划名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge10",
+      "startPoint": { "x": 500.74788008843643, "y": 599.638467993586 },
+      "endPoint": { "x": -38.10307624353063, "y": 255.1097289753828 }
+    },
+    {
+      "source": "地级行政区",
+      "target": "地级市",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge11",
+      "startPoint": { "x": 619.2529865807429, "y": 533.2788407766781 },
+      "endPoint": { "x": 549.2047083912105, "y": 595.7650491340121 }
+    },
+    {
+      "source": "地级市",
+      "target": "行政区划名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge12",
+      "startPoint": { "x": 500.74788008843643, "y": 599.638467993586 },
+      "endPoint": { "x": -38.10307624353063, "y": 255.1097289753828 }
+    },
+    {
+      "source": "地级市",
+      "target": "行政区划名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge13",
+      "startPoint": { "x": 500.74788008843643, "y": 599.638467993586 },
+      "endPoint": { "x": -38.10307624353063, "y": 255.1097289753828 }
+    },
+    {
+      "source": "市政建筑",
+      "target": "博物馆",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge14",
+      "startPoint": { "x": 398.7208421217761, "y": 264.7976160979832 },
+      "endPoint": { "x": 317.1005032624785, "y": 324.6050467715892 }
+    },
+    {
+      "source": "博物馆",
+      "target": "博物馆名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge15",
+      "startPoint": { "x": 266.0907129366837, "y": 327.3716642051688 },
+      "endPoint": { "x": -96.22264714116808, "y": 117.9948172828657 }
+    },
+    {
+      "source": "博物馆",
+      "target": "博物馆名称",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge16",
+      "startPoint": { "x": 266.0907129366837, "y": 327.3716642051688 },
+      "endPoint": { "x": -96.22264714116808, "y": 117.9948172828657 }
+    },
+    {
+      "source": "其他",
+      "target": "结构化的值",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge17",
+      "startPoint": { "x": 419.3144902406491, "y": -33.458017320773024 },
+      "endPoint": { "x": 520.1086225173766, "y": 20.16119369022752 }
+    },
+    {
+      "source": "结构化的值",
+      "target": "联系方式",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge18",
+      "startPoint": { "x": 517.5817882648176, "y": 42.4051223177799 },
+      "endPoint": { "x": 246.56620281383022, "y": 115.27648159104706 }
+    },
+    {
+      "source": "联系方式",
+      "target": "邮寄地址",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge19",
+      "startPoint": { "x": 247.59426300999925, "y": 122.14591078090191 },
+      "endPoint": { "x": 716.9807831169979, "y": 105.97406780774372 }
+    },
+    {
+      "source": "结构化的值",
+      "target": "联系方式",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge20",
+      "startPoint": { "x": 517.5817882648176, "y": 42.4051223177799 },
+      "endPoint": { "x": 246.56620281383022, "y": 115.27648159104706 }
+    },
+    {
+      "source": "联系方式",
+      "target": "邮寄地址",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge21",
+      "startPoint": { "x": 247.59426300999925, "y": 122.14591078090191 },
+      "endPoint": { "x": 716.9807831169979, "y": 105.97406780774372 }
+    },
+    {
+      "source": "联系方式",
+      "target": "邮寄地址",
+      "label": "包含",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge22",
+      "startPoint": { "x": 247.59426300999925, "y": 122.14591078090191 },
+      "endPoint": { "x": 716.9807831169979, "y": 105.97406780774372 }
+    },
+    {
+      "source": "博物馆名称",
+      "target": "博物馆名称",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge25",
+      "startPoint": { "x": -122.6302613500485, "y": 102.73415177329707 },
+      "endPoint": { "x": -122.6302613500485, "y": 102.73415177329707 }
+    },
+    {
+      "source": "博物馆名称",
+      "target": { "x": -80.06564000342829, "y": 213.0770211762691 },
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "行政区划名称",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge27",
+      "startPoint": { "x": -111.65331014515863, "y": 131.19037327660752 },
+      "endPoint": { "x": -80.06564000342829, "y": 213.0770211762691 },
+      "targetNode": null
+    },
+    {
+      "source": "博物馆名称",
+      "target": { "x": -81.43738211591113, "y": 213.07702117626908 },
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge29",
+      "startPoint": { "x": -111.96316658673499, "y": 131.30797002201018 },
+      "endPoint": { "x": -81.43738211591113, "y": 213.07702117626908 },
+      "targetNode": null
+    },
+    {
+      "source": "博物馆名称",
+      "target": { "x": -82.80912422839398, "y": 213.07702117626908 },
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge30",
+      "startPoint": { "x": -112.27683232624328, "y": 131.42311319487922 },
+      "endPoint": { "x": -82.80912422839398, "y": 213.07702117626908 },
+      "targetNode": null
+    },
+    {
+      "source": "博物馆名称",
+      "target": { "x": -84.18086634087683, "y": 214.44876328875196 },
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge31",
+      "startPoint": { "x": -112.70436324165979, "y": 131.57382144446157 },
+      "endPoint": { "x": -84.18086634087683, "y": 214.44876328875196 },
+      "targetNode": null
+    },
+    {
+      "source": "博物馆名称",
+      "target": { "x": -84.18086634087683, "y": 214.44876328875196 },
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge32",
+      "startPoint": { "x": -112.70436324165979, "y": 131.57382144446157 },
+      "endPoint": { "x": -84.18086634087683, "y": 214.44876328875196 },
+      "targetNode": null
+    },
+    {
+      "source": "博物馆名称",
+      "target": "联系方式",
+      "type": "line",
+      "style": {
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": { "stroke": "#409eff" },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 },
+        "hover": { "stroke": "#409eff" },
+        "stroke": "#C0C4CC",
+        "lineWidth": 1,
+        "lineAppendWidth": 0,
+        "startArrow": false,
+        "endArrow": true,
+        "cursor": "pointer"
+      },
+      "label": "联系方式",
+      "labelCfg": {
+        "position": "middle",
+        "refX": 0,
+        "refY": 0,
+        "autoRotate": true,
+        "style": {
+          "fill": "#4682B4",
+          "fontWeight": 400,
+          "opacity": 1,
+          "fontFamily": "微软雅黑",
+          "fontSize": 14
+        }
+      },
+      "id": "edge33",
+      "startPoint": { "x": -92.18542901203104, "y": 104.56777766480457 },
+      "endPoint": { "x": 186.66751661764434, "y": 121.36248276788416 }
+    }
+  ]
+}
