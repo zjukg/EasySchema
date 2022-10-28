@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.neo4j.driver:neo4j-java-driver:4.4.9">
+    <CLASSES>
+      <root url="jar://D:/java/repository/org/neo4j/driver/neo4j-java-driver/4.4.9/neo4j-java-driver-4.4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/java/repository/org/neo4j/driver/neo4j-java-driver/4.4.9/neo4j-java-driver-4.4.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/java/repository/org/neo4j/driver/neo4j-java-driver/4.4.9/neo4j-java-driver-4.4.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
