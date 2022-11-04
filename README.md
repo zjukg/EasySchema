@@ -236,6 +236,7 @@ parameters:
 <br>
 
 # 未来计划
+我们提供长期技术维护和答疑解惑。如有疑问，请提交issues
 <!--
 https://zjukg.github.io/NeuralKG/neuralkg.html-->
 
