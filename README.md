@@ -235,7 +235,7 @@ parameters:
 -->
 <br>
 
-# 详细文档
+# 未来计划
 <!--
 https://zjukg.github.io/NeuralKG/neuralkg.html-->
 
