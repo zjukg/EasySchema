@@ -104,7 +104,7 @@ NeuralKG在自定义知识图谱demo_kg上运行的示例。
 <br>
 
 # 技术栈
-小工具是前台是基于vue + d3.js ,后台是springboot
+小工具前台是基于Vue + Electron ,后台是Springboot
 <br>
 <br>
 
