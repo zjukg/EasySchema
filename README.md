@@ -34,14 +34,10 @@
 # 运行与启动
 
 ## 下载
-<!--
-**Step1** 使用 ```Anaconda``` 创建虚拟环境，并进入虚拟环境
 
-```bash
-conda create -n neuralkg python=3.8
-conda activate neuralkg
-```
-**Step2** 下载适用您CUDA版本的的PyTorch的DGL，下面我们提供一个基于CUDA 11.1的下载样例 
+**Step1** tool文件夹下提供了不同系统平台的应用程序包
+
+**Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例 
 
 +  下载PyTorch
 ```
