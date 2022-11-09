@@ -37,6 +37,7 @@
 ## 下载
 
 **Step1** tool文件夹下提供了不同系统平台的应用程序包<br>
+
 <img alt="demo" src="https://i.postimg.cc/CxXCKH6m/load.png" width="300"><br>
 
 **Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例<br>
@@ -49,13 +50,21 @@
 
 ## 使用说明
 **cnschema概念表** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/NjNf3Z0J/tu3.png" width="400"><br>
 **cnschema属性表** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/WbFBNKSY/tu4.png" width="400"><br>
 **myschema概念表** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/LXJcJb2s/tu5.png" width="400"><br>
 **myschema属性表** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/50zPddf8/tu6.png" width="400"><br>
 **增删改查功能** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 **导入数据-模糊匹配功能** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 **导出功能** tool文件夹下提供了不同系统平台的应用程序包<br>
-**生成三元组功能** tool文件夹下提供了不同系统平台的应用程序包
+<img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
+**生成三元组功能** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 
 <br>
 
