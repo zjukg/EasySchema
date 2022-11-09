@@ -46,7 +46,7 @@
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 
 +  桌面应用程序界面 <br>
-<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="500"><br>
+<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="400"><br>
 
 ## 使用说明
 **1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
@@ -55,8 +55,16 @@
 <img alt="dmg" src="https://i.postimg.cc/WbFBNKSY/tu4.png" width="500"><br>
 **3.myschema概念表** myschema概念表-支持增删改查的功能、导入/导出数据的功能、以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/LXJcJb2s/tu5.png" width="500"><br>
++  新增概念有三种形式：<br>
++  +  从cnschema概念表中选出部分节点到Myschema中 <br>
++  +  导入实例数据，根据匹配结果新增 <br>
++  +  点击新增按钮新增 <br>
 **4.myschema属性表** myschema属性表-支持增删改查的功能、导出数据的功能<br>
 <img alt="dmg" src="https://i.postimg.cc/50zPddf8/tu6.png" width="500"><br>
++  新增属性有三种形式：<br>
++  +  从cnschema属性表中选出部分节点到Myschema中 <br>
++  +  导入实例数据，根据匹配结果新增 <br>
++  +  点击新增按钮新增 <br>
 **5.增删改查功能** 
 + 搜索<br>
 + 查看<br>
