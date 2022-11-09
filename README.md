@@ -43,11 +43,19 @@
 
 +  打开EasySchema.dmg,将图标拖到文件夹中，自动添加到电脑的应用程序中 <br>
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
-+  桌面应用程序界面 <br>
-<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="500">
-<br>
 
-## 使用
++  桌面应用程序界面 <br>
+<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="500"><br>
+
+## 使用说明
+**cnschema概念表** tool文件夹下提供了不同系统平台的应用程序包<br>
+**cnschema属性表** tool文件夹下提供了不同系统平台的应用程序包<br>
+**myschema概念表** tool文件夹下提供了不同系统平台的应用程序包<br>
+**myschema属性表** tool文件夹下提供了不同系统平台的应用程序包<br>
+**增删改查功能** tool文件夹下提供了不同系统平台的应用程序包<br>
+**导入数据-模糊匹配功能** tool文件夹下提供了不同系统平台的应用程序包<br>
+**导出功能** tool文件夹下提供了不同系统平台的应用程序包<br>
+**生成三元组功能** tool文件夹下提供了不同系统平台的应用程序包
 
 <br>
 
