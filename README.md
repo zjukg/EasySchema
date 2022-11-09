@@ -49,16 +49,20 @@
 <img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="500"><br>
 
 ## 使用说明
-**cnschema概念表** <br>
+**cnschema概念表** 
+<br>
 + cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/NjNf3Z0J/tu3.png" width="600"><br>
-**cnschema属性表** <br>
+**cnschema属性表** 
+<br>
 + cnschema属性表-支持搜索、查看的功能，可以勾选部分属性导出到Myschema属性表中对其进行编辑<br>
 <img alt="dmg" src="https://i.postimg.cc/WbFBNKSY/tu4.png" width="600"><br>
-**myschema概念表** <br>
+**myschema概念表** 
+<br>
 + myschema概念表-支持增删改查的功能、导入/导出数据的功能、以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/LXJcJb2s/tu5.png" width="600"><br>
-**myschema属性表** <br>
+**myschema属性表** 
+<br>
 + myschema属性表-支持增删改查的功能、导出数据的功能<br>
 <img alt="dmg" src="https://i.postimg.cc/50zPddf8/tu6.png" width="600"><br>
 **增删改查功能** 
@@ -70,6 +74,7 @@
 + 删除<br>
 + + 单个删除<br>
 + + 批量删除<br>
+<br>
 **导入数据-模糊匹配功能** 运用字符串进行模糊匹配<br>
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 **导出功能** 导出json文件<br>
