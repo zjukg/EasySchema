@@ -35,8 +35,8 @@
 
 ## 下载
 
-**Step1** tool文件夹下提供了不同系统平台的应用程序包
-<img alt="demo" src="https://i.postimg.cc/CxXCKH6m/load.png" width="500"><br>
+**Step1** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="demo" src="https://i.postimg.cc/CxXCKH6m/load.png" width="400"><br>
 **Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例 
 
 +  下载PyTorch
