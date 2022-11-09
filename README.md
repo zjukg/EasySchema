@@ -20,7 +20,7 @@
     </a>
 </p>-->
 <h1 align="center">
-    <img alt="logo" src="https://i.postimg.cc/QCB38mTj/Logo-2.png">
+    <img alt="logo" src="https://i.postimg.cc/tgKqsL9Y/easyschema.png">
 </h1>
 
 EasySchema是一个支持cnSchema中文图谱的编辑工具，其中实现了对cnSchema实体和属性表进行编辑并生成用户自定义的MySchema概念和属性表，以及生成MySchema三元组文件。同时为初学者提供了详细的[文档](https://zjukg.github.io/.../index.html)以及一个开放共享的知识图谱学习社区[网站](http://cnschema.openkg.cn/)。
