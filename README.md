@@ -58,13 +58,15 @@
 +  新增概念有三种形式：<br>
 +  +  从cnschema概念表中选出部分节点到Myschema中 <br>
 +  +  导入实例数据，根据匹配结果新增 <br>
-+  +  点击新增按钮新增 <br>
++  +  点击新增按钮新增 
+<br>
 **4.myschema属性表** myschema属性表-支持增删改查的功能、导出数据的功能<br>
 <img alt="dmg" src="https://i.postimg.cc/50zPddf8/tu6.png" width="500"><br>
 +  新增属性有三种形式：<br>
 +  +  从cnschema属性表中选出部分节点到Myschema中 <br>
 +  +  导入实例数据，根据匹配结果新增 <br>
-+  +  点击新增按钮新增 <br>
++  +  点击新增按钮新增 
+<br>
 **5.增删改查功能** 
 + 搜索<br>
 + 查看<br>
