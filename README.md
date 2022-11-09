@@ -47,6 +47,19 @@
 **Step3** 使用EasySchema
 <br>
 
+## 使用
+
+**Step1** tool文件夹下提供了不同系统平台的应用程序包<br>
+<img alt="demo" src="https://i.postimg.cc/CxXCKH6m/load.png" width="400"><br>
+
+**Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例<br>
+
++  打开EasySchema.dmg
+<br>
+
+**Step3** 使用EasySchema
+<br>
+
 # 问题反馈
 我们提供长期技术维护和答疑解惑。如有疑问，请提交issues。
 <br>
