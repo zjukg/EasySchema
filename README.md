@@ -43,6 +43,7 @@
 
 +  打开EasySchema.dmg,将图标拖到文件夹中，自动添加到电脑的应用程序中 <br>
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
++  桌面应用程序界面 <br>
 <img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="400">
 <br>
 
