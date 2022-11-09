@@ -31,12 +31,7 @@ EasySchema是一个支持cnSchema中文图谱的编辑工具，其中实现了�
 <br>
 
 # 运行示例
-
-<!--
-NeuralKG在自定义知识图谱demo_kg上运行的示例。
-
-<img src="pics/demo.gif">-->
-
+<a href="http://116.62.19.215:1111/">demo演示地址</a>
 
 <br>
 
