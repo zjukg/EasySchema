@@ -42,6 +42,7 @@
 
 +  打开EasySchema.dmg
 <br>
+
 **Step3** 使用EasySchema
 <br>
 
