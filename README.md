@@ -9,8 +9,9 @@
 # 运行示例
 <img alt="demo" src="https://i.postimg.cc/4xrv3xHt/home.png" width="800">
 <br>
-<a href="http://116.62.19.215:1111/" style="text-align: center">demo演示地址</a>
+<a href="http://116.62.19.215:1111/">demo演示地址</a>
 <br>
+
 # 技术栈
 小工具前端是基于Vue + Electron ,后端是基于Springboot + MySQL
 <br>
