@@ -28,51 +28,8 @@ EasySchema是一个支持cnSchema中文图谱的编辑工具，其中实现了�
 
 <br>
 
-# 目录
-
-<!--
-- [目录](#目录)
-- [😃最新消息](#最新消息)
-  - [2022年10月](#2022年10月)
-  - [2022年9月](#2022年9月)
-  - [2022年6月](#2022年6月)
-  - [2022年3月](#2022年3月)
-  - [2022年2月](#2022年2月)
-- [工具概览](#工具概览)
-- [运行示例](#运行示例)
-- [实现模型](#实现模型)
-- [快速上手](#快速上手)
-  - [下载](#下载)
-  - [模型训练](#模型训练)
-  - [模型测试](#模型测试)
-  - [超参调节](#超参调节)
-- [复现结果](#复现结果)
-- [Notebook教程](#notebook教程)
-- [详细文档](#详细文档)
-- [引用](#引用)
-- [NeuralKG核心团队](#neuralkg核心团队)-->
-<!-- * [To do](#to-do) -->
-
 <br>
 
-<!--
-# 😃最新消息
-## 2022年10月
-* 我们添加了[DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)模型
-
-## 2022年9月
-* 我们添加了[PairRE](https://arxiv.org/pdf/2011.03798.pdf)模型
-
-## 2022年6月
-* 我们添加了[HAKE](https://arxiv.org/abs/1911.09419)模型
-
-## 2022年3月
-* 我们提供了一个[Google Colab教程](https://drive.google.com/drive/folders/1OyuxvdjRNFzRuheNZaGGCsPe75T1pW1P?usp=sharing)帮助用户使用我们的工具包
-* 我们提供了一篇[博客](http://neuralkg.zjukg.org/uncategorized/neuralkg-for-recommendation%ef%bf%bc/)来介绍我们的工具包在自定义数据集上的使用方式
-
-## 2022年2月
-* 我们发布了关于该工具包的论文[NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs](https://arxiv.org/abs/2202.12571)
--->
 <br>
 
 # 工具概览
@@ -118,7 +75,7 @@ NeuralKG在自定义知识图谱demo_kg上运行的示例。
 **7** 生成Myschema三元组
 <br>
 
-# 快速上手
+# 运行与启动
 
 ## 下载
 <!--
@@ -250,22 +207,6 @@ https://zjukg.github.io/NeuralKG/neuralkg.html-->
 
 <!-- # To do -->
 
-<br>
-
-# 引用
-<!--
-如果您使用了NeuralKG，请引用我们的论文
-
-```bibtex
-@article{zhang2022neuralkg,
-      title={NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs}, 
-      author={Zhang, Wen and Chen, Xiangnan and Yao, Zhen and Chen, Mingyang and Zhu, Yushan and Yu, Hongtao and Huang, Yufeng and others},
-      journal={arXiv preprint arXiv:2202.12571},
-      year={2022},
-}
-
-```
--->
 <br>
 
 # 核心团队
