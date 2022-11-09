@@ -77,15 +77,13 @@
 + + 单个删除<br>
 + + 批量删除<br>
 
-**6.导入数据-模糊匹配功能** 
+**6.导入数据-模糊匹配功能** 目前只支持上传单个表文件进行模糊匹配<br>
 <img alt="dmg" src="https://i.postimg.cc/4yCvRB5M/tu7.png" width="500"><br>
 + 将表名、表头字段与数据库中的cnschema概念、属性的字符串进行模糊查询，页面中会显示哪些字段存在相似情况、哪些字段不存在，可以根据匹配结果将字段添加到对应的概念表和属性表中<br>
-+ 目前只支持上传单个表文件进行模糊匹配<br>
 
 **7.导出功能** 导出json文件<br>
-**8.生成三元组功能** 
-上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
-<img alt="dmg" src="https://i.postimg.cc/g2TbqZ4j/tu8.png" width="400"><br>
+**8.生成三元组功能** 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
+<img alt="dmg" src="https://i.postimg.cc/g2TbqZ4j/tu8.png" width="500"><br>
 
 <br>
 
