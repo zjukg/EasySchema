@@ -78,7 +78,7 @@
 + + 批量删除<br>
 
 **6.导入数据-模糊匹配功能** 运用字符串进行模糊匹配<br>
-<img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
+<img alt="dmg" src="https://i.postimg.cc/4yCvRB5M/tu7.png" width="500"><br>
 **7.导出功能** 导出json文件<br>
 **8.生成三元组功能** tool文件夹下提供了不同系统平台的应用程序包<br>
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
