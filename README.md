@@ -41,8 +41,9 @@
 
 **Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例<br>
 
-+  打开EasySchema.dmg
-<img alt="demo" src="https://i.postimg.cc/wMDzfGtB/tu1.png"><br>
++  打开EasySchema.dmg,将图标拖到文件夹中，自动添加到电脑的应用程序中
+<img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
+<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="400">
 <br>
 
 **Step3** 使用EasySchema
