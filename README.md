@@ -103,14 +103,20 @@ NeuralKG在自定义知识图谱demo_kg上运行的示例。
 
 <br>
 
-# 模型框架
-<!--
-|类别| 模型 |
-|:--:|:--------------:|
-|传统知识图谱嵌入（KGEModel）|[TransE](https://papers.nips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html), [TransH](https://ojs.aaai.org/index.php/AAAI/article/view/8870), [TransR](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewFile/9571/9523/), [ComplEx](http://proceedings.mlr.press/v48/trouillon16.pdf), [DistMult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICLR2015_updated.pdf), [RotatE](https://arxiv.org/abs/1902.10197), [ConvE](https://arxiv.org/abs/1707.01476), [BoxE](https://arxiv.org/pdf/2007.06267.pdf), [CrossE](https://arxiv.org/abs/1903.04750), [SimplE](https://arxiv.org/abs/1802.04868), [HAKE](https://arxiv.org/abs/1911.09419), [PairRE](https://arxiv.org/pdf/2011.03798.pdf), [DualE](https://ojs.aaai.org/index.php/AAAI/article/view/16850)|
-|基于图神经网络的知识图谱嵌入（GNNModel）|[RGCN](https://arxiv.org/abs/1703.06103), [KBAT](https://arxiv.org/abs/1906.01195), [CompGCN](https://arxiv.org/abs/1906.01195), [XTransE](https://link.springer.com/chapter/10.1007/978-981-15-3412-6_8)|
-|基于规则的知识图谱嵌入（RuleModel）|[ComplEx-NNE+AER](https://aclanthology.org/P18-1011/), [RUGE](https://arxiv.org/abs/1711.11231), [IterE](https://arxiv.org/abs/1903.08948)|
--->
+# 技术栈
+小工具是前台是基于vue + d3.js ,后台是springboot配合Neo4j
+<br>
+<br>
+
+# 实现的基本功能
+新增节点,添加连线,快速添加节点和关系
+节点的颜色和大小可修改
+节点和关系的编辑,删除
+导出成图片
+csv导入
+导出csv
+添加图片和富文本
+节点之间多个关系
 <br>
 
 # 快速上手
