@@ -37,21 +37,18 @@
 ## 下载
 
 **Step1** tool文件夹下提供了不同系统平台的应用程序包<br>
-<img alt="demo" src="https://i.postimg.cc/CxXCKH6m/load.png" width="400"><br>
+<img alt="demo" src="https://i.postimg.cc/CxXCKH6m/load.png" width="300"><br>
 
 **Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例<br>
 
 +  打开EasySchema.dmg,将图标拖到文件夹中，自动添加到电脑的应用程序中 <br>
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 +  桌面应用程序界面 <br>
-<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="400">
+<img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="500">
 <br>
 
 ## 使用
 
-<br>
-
-**Step3** 使用EasySchema
 <br>
 
 # 问题反馈
