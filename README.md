@@ -2,7 +2,7 @@
     <img alt="logo" src="https://i.postimg.cc/tgKqsL9Y/easyschema.png" width="400">
 </h1>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EasySchema是一个支持cnSchema中文知识图谱Schema编辑工具，其中实现了对cnSchema概念和属性表编辑功能并生成用户自定义的MySchema概念和属性表，以及生成相关联的三元组文件。同时为初学者提供了详细的文档以及一个开放共享的知识图谱学习社区平台。EasySchema由OpenKG组织开发。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EasySchema是一个开源的、支持cnSchema的中文知识图谱Schema编辑工具，使用者可以基于cnSchema快速的定制、扩展、编辑自己的Schema概念和属性表，并基于该Schema生成相关联的三元组文件。EasySchema为初学者提供了详细的文档以及一个开放共享的知识图谱学习社区平台。EasySchema由OpenKG组织开发。
 
 <br>
 
