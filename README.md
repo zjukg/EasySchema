@@ -51,10 +51,15 @@
 ## 使用说明
 **1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/NjNf3Z0J/tu3.png" width="500"><br>
++ cnschema概念表可视化展示：树状图、泡泡图
+<img alt="dmg" src="https://i.postimg.cc/3NGDxsB7/tu9.png" width="500"><br>
+<img alt="dmg" src="https://i.postimg.cc/6Q17LWbt/tu10.png" width="500"><br>
 **2.cnschema属性表** cnschema属性表-支持搜索、查看的功能，可以勾选部分属性导出到Myschema属性表中对其进行编辑<br>
 <img alt="dmg" src="https://i.postimg.cc/WbFBNKSY/tu4.png" width="500"><br>
 **3.myschema概念表** myschema概念表-支持增删改查的功能、导入/导出数据的功能、以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/LXJcJb2s/tu5.png" width="500"><br>
++ myschema概念表可视化展示
+<img alt="dmg" src="https://i.postimg.cc/zBKJb89d/tu11.png" width="500"><br>
 新增概念有三种形式：<br>
 +  +  从cnschema概念表中选出部分节点到Myschema中 <br>
 +  +  导入实例数据，根据匹配结果新增 <br>
