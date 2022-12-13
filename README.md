@@ -73,6 +73,8 @@
 
 **Step2** 点击Myschema概念表，导入表格，进行模糊匹配查询<br>
 
+<img alt="demo" src="https://i.postimg.cc/BnqXSn4V/41.jpg" width="600"><br>
+
 **Step3** 第一步：表名匹配，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
 
 <img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="600"><br>
