@@ -84,6 +84,15 @@
 
 <img alt="demo" src="https://i.postimg.cc/nzyDrh5y/5.jpg" width="600"><br>
 
+<img alt="demo" src="https://i.postimg.cc/85JZxsM9/6.jpg" width="600"><br>
+
+<img alt="demo" src="https://i.postimg.cc/HktW7kJq/8.jpg" width="600"><br>
+
++ myschema.json文件样例<br>
+<img alt="demo" src="https://i.postimg.cc/RVkJThZq/691670901140-pic.jpg" width="600"><br>
+
++ 三元组文件样例<br>
+<img alt="demo" src="https://i.postimg.cc/sXLgDHB1/701670901186-pic.jpg" width="600"><br>
 
 ## 使用说明
 **1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
