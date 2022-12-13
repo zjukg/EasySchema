@@ -89,7 +89,7 @@
 
 **Step5** 第三步：查看选择的概念、再进行二次编辑，生成三元组文件<br>
 
-<img alt="demo" src="https://i.postimg.cc/nzyDrh5y/5.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="600"><br>
 
 <img alt="demo" src="https://i.postimg.cc/85JZxsM9/6.jpg" width="600"><br>
 
