@@ -135,7 +135,7 @@
 
 **7.导出功能** 导出json文件<br>
 **8.生成三元组功能** 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
-<img alt="dmg" src="https://i.postimg.cc/g2TbqZ4j/tu8.png" width="500"><br>
+参考- [案例实现](#案例实现)
 
 <br>
 
