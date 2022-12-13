@@ -64,6 +64,18 @@
 +  桌面应用程序界面 <br>
 <img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="400"><br>
 
+## 运行示例
+
+**Step1** 有一个博物馆.xls的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
+
+<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="200"><br>
+
+**Step2** 点击Myschema概念表，导入表格，进行模糊匹配查询<br>
+
+<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="200"><br>
+
+
+
 ## 使用说明
 **1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/NjNf3Z0J/tu3.png" width="500"><br>
