@@ -68,17 +68,21 @@
 
 **Step1** 有一个博物馆.xls的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
 
-<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="400"><br>
+<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="600"><br>
 
 **Step2** 点击Myschema概念表，导入表格，进行模糊匹配查询<br>
 
 **Step3** 第一步：表名匹配，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
 
+<img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="600"><br>
+
 **Step4** 第二步：表头字段匹配，选择适配的概念和属性，注意选择一个主属性，【博物馆.xls，表头字段有：博物馆地址、联系方式、博物馆性质、主键、行政区划名称、博物馆名称；其中博物馆名称就是博物馆的主属性】<br>
 
-**Step4** 第二步：表头字段匹配，选择适配的概念和属性<br>
-<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="200"><br>
+<img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="600"><br>
 
+**Step5** 第三步：查看选择的概念、再进行二次编辑，生成三元组文件<br>
+
+<img alt="demo" src="https://i.postimg.cc/nzyDrh5y/5.jpg" width="600"><br>
 
 
 ## 使用说明
