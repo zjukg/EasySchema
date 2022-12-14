@@ -67,39 +67,39 @@
 
 ## 案例实现
 
-**Step1** 有一个<p style="font-weight:blod">博物馆.xls</p>的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
+**Step1** 有一个博物馆.xls的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
 
-<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="400"><br>
 
 **Step2** 点击Myschema概念表，导入表格，进行模糊匹配查询<br>
 
-<img alt="demo" src="https://i.postimg.cc/tgpxS58c/711670921371-pic.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/tgpxS58c/711670921371-pic.jpg" width="400"><br>
 
 **Step3** 第一步：表名匹配，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
 
-<img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="400"><br>
 
 + 若表名匹配后的概念不适配，可以新增一级节点拖拽到对应的层级概念下或者在父节点下生成子级节点<br>
 
-<img alt="demo" src="https://i.postimg.cc/0QL79JtR/721670921512-pic.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/0QL79JtR/721670921512-pic.jpg" width="400"><br>
 
 **Step4** 第二步：表头字段匹配，选择适配的概念和属性，注意选择一个主属性，【博物馆.xls，表头字段有：博物馆地址、联系方式、博物馆性质、主键、行政区划名称、博物馆名称；其中博物馆名称就是博物馆的主属性】<br>
 
-<img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="400"><br>
 
 **Step5** 第三步：查看选择的概念、再进行二次编辑，生成三元组文件<br>
 
-<img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="400"><br>
 
-<img alt="demo" src="https://i.postimg.cc/85JZxsM9/6.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/85JZxsM9/6.jpg" width="400"><br>
 
-<img alt="demo" src="https://i.postimg.cc/HktW7kJq/8.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/HktW7kJq/8.jpg" width="400"><br>
 
 + myschema.json文件样例<br>
-<img alt="demo" src="https://i.postimg.cc/RVkJThZq/691670901140-pic.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/RVkJThZq/691670901140-pic.jpg" width="400"><br>
 
 + 三元组文件样例<br>
-<img alt="demo" src="https://i.postimg.cc/sXLgDHB1/701670901186-pic.jpg" width="600"><br>
+<img alt="demo" src="https://i.postimg.cc/sXLgDHB1/701670901186-pic.jpg" width="400"><br>
 
 ## 使用说明
 **1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
