@@ -67,7 +67,7 @@
 
 ## 案例实现
 
-**Step1** 有一个博物馆.xls的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
+**Step1** 有一个<p style="font-weight:blod">博物馆.xls</p>的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
 
 <img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="600"><br>
 
