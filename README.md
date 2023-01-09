@@ -69,7 +69,7 @@
 
 ## 案例实现
 
-**Step1** 有一个**博物馆.xls**的数据表格，目标是生成博物馆的schema.json文件、以及博物馆的三元组csv文件<br>
+**Step1** 有一个**博物馆.xls**的数据表格，目标是生成博物馆的**schema.json**文件、博物馆的三元组**csv文件**<br>
 
 <img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="400"><br>
 
@@ -81,7 +81,7 @@
 
 <img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="400"><br>
 
-+ 若表名匹配后的概念不适配，可以新增一级节点拖拽到对应的层级概念下或者在父节点下生成子级节点<br>
++ 若表名匹配后的概念不适配，可以新增节点并拖拽到对应的父节点下<br>
 
 <img alt="demo" src="https://i.postimg.cc/0QL79JtR/721670921512-pic.jpg" width="400"><br>
 
@@ -89,7 +89,7 @@
 
 <img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="400"><br>
 
-**Step5** 第三步：查看选择的概念、再进行二次编辑，生成**三元组文件**<br>
+**Step5** 第三步：生成**三元组文件**<br>
 
 <img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="400"><br>
 
