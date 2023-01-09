@@ -113,6 +113,7 @@
 
 ## 使用说明
 **1.cnschema概念表** <br>
+<br>
 cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/NjNf3Z0J/tu3.png" width="400"><br>
 
@@ -123,10 +124,12 @@ cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导�
 <img alt="dmg" src="https://i.postimg.cc/6Q17LWbt/tu10.png" width="400"><br>
 
 **2.cnschema属性表** <br>
+<br>
 cnschema属性表-支持搜索、查看的功能，可以勾选部分属性导出到Myschema属性表中对其进行编辑<br>
 <img alt="dmg" src="https://i.postimg.cc/WbFBNKSY/tu4.png" width="400"><br>
 
 **3.myschema概念表** <br>
+<br>
 myschema概念表-支持增删改查的功能、导入/导出数据的功能、以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/LXJcJb2s/tu5.png" width="400"><br>
 
@@ -140,6 +143,7 @@ myschema概念表-支持增删改查的功能、导入/导出数据的功能、�
 +  +  点击新增按钮新增 <br>
 
 **4.myschema属性表** <br>
+<br>
 myschema属性表-支持增删改查的功能、导出数据的功能<br>
 <img alt="dmg" src="https://i.postimg.cc/50zPddf8/tu6.png" width="400"><br>
 新增属性有三种形式：<br>
@@ -148,6 +152,7 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 +  +  点击新增按钮新增 <br>
 
 **5.增删改查功能** <br>
+<br>
 + 搜索<br>
 + 查看<br>
 + 新增<br>
@@ -160,15 +165,18 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 + 拖拽放置<br>
 
 **6.导入数据-模糊匹配功能** <br>
+<br>
 目前只支持上传单个表文件进行模糊匹配<br>
 
 <img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="400"><br>
 + 参考- [案例实现](#案例实现)<br>
 
 **7.导出功能** <br>
+<br>
 导出json文件<br>
 
 **8.生成三元组功能** <br>
+<br>
 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
 <img alt="demo" src="https://i.postimg.cc/tCtCPHm2/2-Medium.jpg" width="400"><br>
 参考- [案例实现](#案例实现) <br>
