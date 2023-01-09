@@ -107,6 +107,8 @@
 
 + 三元组文件样例<br>
 
+[2.png](https://postimg.cc/RNNB5wRV)
+
 <img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
 
 ## 使用说明
