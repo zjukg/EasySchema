@@ -139,6 +139,7 @@ myschema概念表-支持增删改查的功能、导入/导出数据的功能、�
 +  +  导入实例数据，根据匹配结果新增 <br>
 +  +  点击新增按钮新增 <br>
 <br>
+
 **4.myschema属性表** <br>
 myschema属性表-支持增删改查的功能、导出数据的功能<br>
 <img alt="dmg" src="https://i.postimg.cc/50zPddf8/tu6.png" width="400"><br>
@@ -147,6 +148,7 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 +  +  导入实例数据，根据匹配结果新增 <br>
 +  +  点击新增按钮新增 <br>
 <br>
+
 **5.增删改查功能** <br>
 + 搜索<br>
 + 查看<br>
@@ -159,15 +161,18 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 + 重置<br>
 + 拖拽放置<br>
 <br>
+
 **6.导入数据-模糊匹配功能** <br>
 目前只支持上传单个表文件进行模糊匹配<br>
 
 <img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="400"><br>
 + 参考- [案例实现](#案例实现)<br>
 <br>
+
 **7.导出功能** <br>
 导出json文件<br>
 <br>
+
 **8.生成三元组功能** <br>
 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
 <img alt="demo" src="https://i.postimg.cc/tCtCPHm2/2-Medium.jpg" width="400"><br>
