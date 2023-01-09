@@ -57,9 +57,11 @@
 **Step2** 下载适用您电脑系统的应用程序包，下面我们提供一个基于Mac-arm64系统的下载样例<br>
 
 +  打开EasySchema.dmg,将图标拖到文件夹中，自动添加到电脑的应用程序中 <br>
+
 <img alt="dmg" src="https://i.postimg.cc/wMDzfGtB/tu1.png" width="400"><br>
 
 +  桌面应用程序界面 <br>
+
 <img alt="dmg" src="https://i.postimg.cc/Y9bY4d2h/tu2.png" width="400"><br>
 
 ## 案例实现
@@ -106,8 +108,6 @@
 <img alt="demo" src="https://i.postimg.cc/RVkJThZq/691670901140-pic.jpg" width="400"><br>
 
 + 三元组文件样例<br>
-
-[2.png](https://postimg.cc/RNNB5wRV)
 
 <img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
 
@@ -171,9 +171,7 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 **8.生成三元组功能** <br>
 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
 <img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
-参考- [案例实现](#案例实现)
-
-<br>
+参考- [案例实现](#案例实现) <br>
 
 # 问题反馈
 我们提供长期技术维护和答疑解惑。如有疑问，请提交issues。
