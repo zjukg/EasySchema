@@ -104,7 +104,8 @@
 <img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
 
 ## 使用说明
-**1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
+**1.cnschema概念表** <br>
+cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/NjNf3Z0J/tu3.png" width="400"><br>
 + cnschema概念表可视化展示：树状图、泡泡图 <br>
 <img alt="dmg" src="https://i.postimg.cc/3NGDxsB7/tu9.png" width="400"><br>
