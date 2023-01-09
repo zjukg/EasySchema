@@ -84,9 +84,13 @@
 
 <img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="400"><br>
 
+<img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="400"><br>
+
 **Step5** 第三步：生成**三元组文件**<br>
 
-<img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="400"><br>
++ 输入数据集的namespace,例如：博物馆数据集放在cngraph数据平台，namespace拟名cng<br>
+
+<img alt="demo" src="https://i.postimg.cc/9FPzp2KD/1.png" width="400"><br>
 
 <img alt="demo" src="https://i.postimg.cc/85JZxsM9/6.jpg" width="400"><br>
 
@@ -96,7 +100,7 @@
 <img alt="demo" src="https://i.postimg.cc/RVkJThZq/691670901140-pic.jpg" width="400"><br>
 
 + 三元组文件样例<br>
-<img alt="demo" src="https://i.postimg.cc/sXLgDHB1/701670901186-pic.jpg" width="400"><br>
+<img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
 
 ## 使用说明
 **1.cnschema概念表** cnschema概念表-支持搜索、查看的功能，可以勾选部分概念导出到Myschema概念表中对其进行编辑，以及节点知识图谱可视化展示<br>
