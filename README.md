@@ -127,8 +127,11 @@ cnschema属性表-支持搜索、查看的功能，可以勾选部分属性导�
 **3.myschema概念表** <br>
 myschema概念表-支持增删改查的功能、导入/导出数据的功能、以及节点知识图谱可视化展示<br>
 <img alt="dmg" src="https://i.postimg.cc/LXJcJb2s/tu5.png" width="400"><br>
+
 + myschema概念表可视化展示<br>
+
 <img alt="dmg" src="https://i.postimg.cc/zBKJb89d/tu11.png" width="400"><br>
+
 新增概念有三种形式：<br>
 +  +  从cnschema概念表中选出部分节点到Myschema中 <br>
 +  +  导入实例数据，根据匹配结果新增 <br>
@@ -165,6 +168,7 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 
 **8.生成三元组功能** <br>
 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
+<img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
 参考- [案例实现](#案例实现)
 
 <br>
