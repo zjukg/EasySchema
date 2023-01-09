@@ -64,16 +64,18 @@
 
 ## 案例实现
 
-**Step1** 
+**Step1** <br>
 有一个**博物馆.xls**的数据表格，目标是生成博物馆的**schema.json**文件、博物馆的三元组**csv文件**<br>
 
 <img alt="demo" src="https://i.postimg.cc/KcsXG8k1/s1.jpg" width="400"><br>
 
-**Step2** 点击Myschema概念表，导入表格，进行模糊匹配查询<br>
+**Step2** <br>
+点击Myschema概念表，导入表格，进行模糊匹配查询<br>
 
 <img alt="demo" src="https://i.postimg.cc/tgpxS58c/711670921371-pic.jpg" width="400"><br>
 
-**Step3** **表名匹配**，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
+**Step3** <br>
+**表名匹配**，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
 
 <img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="400"><br>
 
@@ -81,13 +83,15 @@
 
 <img alt="demo" src="https://i.postimg.cc/0QL79JtR/721670921512-pic.jpg" width="400"><br>
 
-**Step4** **表头字段匹配**，选择适配的概念和属性，注意选择一个**主属性**，【博物馆.xls，表头字段有：博物馆地址、联系方式、博物馆性质、主键、行政区划名称、博物馆名称；其中博物馆名称就是博物馆的主属性】<br>
+**Step4** <br>
+**表头字段匹配**，选择适配的概念和属性，注意选择一个**主属性**，【博物馆.xls，表头字段有：博物馆地址、联系方式、博物馆性质、主键、行政区划名称、博物馆名称；其中博物馆名称就是博物馆的主属性】<br>
 
 <img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="400"><br>
 
 <img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="400"><br>
 
-**Step5** 生成**三元组文件**<br>
+**Step5** <br>
+生成**三元组文件**<br>
 
 + 输入数据集的namespace,例如：博物馆数据集放在cngraph数据平台，namespace拟名cng<br>
 
@@ -98,9 +102,11 @@
 <img alt="demo" src="https://i.postimg.cc/HktW7kJq/8.jpg" width="400"><br>
 
 + myschema.json文件样例<br>
+
 <img alt="demo" src="https://i.postimg.cc/RVkJThZq/691670901140-pic.jpg" width="400"><br>
 
 + 三元组文件样例<br>
+
 <img alt="demo" src="https://i.postimg.cc/SNGN9rY8/2.png" width="400"><br>
 
 ## 使用说明
