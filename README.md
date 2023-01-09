@@ -73,7 +73,7 @@
 
 <img alt="demo" src="https://i.postimg.cc/tgpxS58c/711670921371-pic.jpg" width="400"><br>
 
-**Step3** 第一步：**表名匹配**，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
+**Step3** **表名匹配**，点击加号按钮选择适配的概念【博物馆.xls文件，博物馆是表名，选择“博物馆”】<br>
 
 <img alt="demo" src="https://i.postimg.cc/ZRV8qmZZ/3.jpg" width="400"><br>
 
@@ -81,13 +81,13 @@
 
 <img alt="demo" src="https://i.postimg.cc/0QL79JtR/721670921512-pic.jpg" width="400"><br>
 
-**Step4** 第二步：**表头字段匹配**，选择适配的概念和属性，注意选择一个**主属性**，【博物馆.xls，表头字段有：博物馆地址、联系方式、博物馆性质、主键、行政区划名称、博物馆名称；其中博物馆名称就是博物馆的主属性】<br>
+**Step4** **表头字段匹配**，选择适配的概念和属性，注意选择一个**主属性**，【博物馆.xls，表头字段有：博物馆地址、联系方式、博物馆性质、主键、行政区划名称、博物馆名称；其中博物馆名称就是博物馆的主属性】<br>
 
 <img alt="demo" src="https://i.postimg.cc/HxRQM2JP/4.jpg" width="400"><br>
 
 <img alt="demo" src="https://i.postimg.cc/rsHVBSgx/731670921563-pic.jpg" width="400"><br>
 
-**Step5** 第三步：生成**三元组文件**<br>
+**Step5** 生成**三元组文件**<br>
 
 + 输入数据集的namespace,例如：博物馆数据集放在cngraph数据平台，namespace拟名cng<br>
 
