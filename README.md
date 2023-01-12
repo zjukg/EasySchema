@@ -109,7 +109,7 @@
 
 + 三元组文件样例<br>
 
-<img alt="demo" src="https://i.postimg.cc/tCtCPHm2/2-Medium.jpg" width="400"><br>
+<img alt="demo" src="https://i.postimg.cc/8PLhnCfk/861673486349-pic.jpg" width="400"><br>
 
 ## 使用说明
 **1.cnschema概念表** <br>
@@ -175,7 +175,7 @@ myschema属性表-支持增删改查的功能、导出数据的功能<br>
 
 **8.生成三元组功能** <br>
 上传实例文件、myschema文件，可以生成相关数据的三元组文件，下载到本地<br>
-<img alt="demo" src="https://i.postimg.cc/tCtCPHm2/2-Medium.jpg" width="400"><br>
+<img alt="demo" src="https://i.postimg.cc/8PLhnCfk/861673486349-pic.jpg" width="400"><br>
 参考- [案例实现](#案例实现) <br>
 
 # 问题反馈
