@@ -95,9 +95,6 @@
 **Step5** <br>
 生成**三元组文件**<br>
 
-+ 输入数据集的namespace,例如：博物馆数据集放在cngraph数据平台，namespace拟名cng<br>
-
-<img alt="demo" src="https://i.postimg.cc/9FPzp2KD/1.png" width="400"><br>
 
 <img alt="demo" src="https://i.postimg.cc/85JZxsM9/6.jpg" width="400"><br>
 
